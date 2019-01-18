@@ -1,0 +1,320 @@
+html
+{
+  height: 100%;
+  width: 100%;
+  margin: 0;
+}
+
+header
+{
+margin-bottom: 7%;
+}
+
+body
+{
+	background-image: url(../img/fond.jpg);
+	background-size: 100%;
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+	min-height: 100%;
+  	margin: 0;
+  	padding: 0;
+}
+
+nav, ul, li
+{
+	display: inline-block;
+	padding-left: 7em;
+	margin-top: 1%;
+	text-align: center;
+	font-family: 'Poppins', sans-serif;
+	font-size: 1.1em;
+}
+
+h1
+{
+	font-family: 'Poppins', sans-serif;
+	text-transform: uppercase;
+	color: black;
+	text-align: center;
+}
+
+h2
+{
+	font-family: 'Poppins', sans-serif;
+	text-align: left;
+	margin: auto;
+
+}
+
+#moi
+{ 
+	position: absolute;
+	margin-left: 10%;
+	border: solid 3px;
+}
+
+#moi:hover
+{
+	transform:rotate(360deg);
+	transition-duration: 2s;
+    transition-timing-function: ease-in-out;
+}
+
+
+#nom
+{
+	position: absolute;
+}
+
+#lg
+{
+	display: none;
+}
+
+#section1
+{ 
+	position: relative;
+	width: 50%;
+	max-height: 400px;
+	left: 30%;
+	color: white;
+	background-color: black;
+	opacity: 0.7;
+	text-align: justify;
+	font-family: 'Ranga', cursive;
+	font-size: 2.5em;
+	padding: 1%;
+	overflow: auto;
+}
+
+.section2
+{
+	font-family: 'Poppins', sans-serif;
+	color: white;
+	text-align: center;
+	background-color: black;
+	opacity: 0.8;
+	line-height: 2em;
+	margin-left: 10%;
+	margin-right: 10%;
+	height: 25em;
+	padding-top: 2em;
+	padding-bottom: 1.5em;
+	padding-left: 1.5em;
+	padding-right: 1.5em;
+	text-align: justify;
+	overflow: auto;
+}
+
+#section3
+{
+	font-family: 'Poppins', sans-serif;
+	color: white;
+	text-align: center;
+	background-color: black;
+	opacity: 0.8;
+	line-height: 2em;
+	margin-left: 7%;
+	margin-right: 3.5%;
+	height: 25em;
+	padding-top: 1.5em;
+	padding-bottom: 1.5em;
+	padding-left: 1.5em;
+	padding-right: 1.5em;
+	text-align: justify;
+	overflow: auto;
+	display: block;
+	width: 40%;
+	position: absolute;
+}
+
+#section4
+{
+	font-family: 'Poppins', sans-serif;
+	color: white;
+	text-align: center;
+	background-color: black;
+	opacity: 0.8;
+	line-height: 2em;
+	margin-left: 3.5%;
+	margin-right: 7%;
+	height: 25em;
+	padding-top: 1.5em;
+	padding-bottom: 1.5em;
+	padding-left: 1.5em;
+	padding-right: 1.5em;
+	text-align: justify;
+	overflow: auto;
+	display: block;
+	width: 40%;
+	position: relative;
+	left: 50%;
+}
+
+#github
+{
+	float: right;
+	width: 3.5em; 
+}
+
+a 
+{ 
+	text-decoration: none;
+}
+
+form
+{
+	font-family: 'Poppins', sans-serif;
+	color: white;
+	text-align: center;
+	background-color: black;
+	opacity: 0.8;
+	line-height: 2em;
+	margin-left: 10%;
+	margin-right: 10%;
+	height: 15em;
+	padding-top: 5em;
+}
+
+
+footer
+{
+	color: white;
+	background-color: black;
+	opacity: 0.5;
+	position: fixed; 
+	bottom: 0;
+	width: 100%;
+	text-align: center;
+	line-height: 3em;
+	font-size: 1.3em;
+}
+
+
+@media screen and (max-width: 960px)
+{
+	#moi
+	{
+		display: none;
+	}
+
+	nav
+	{
+		padding-left: 2%;
+	}
+
+	#section1
+	{
+	position: static;
+	margin: auto;
+	width: 80%;
+	height: 80%
+
+	}
+
+	#section3
+	{
+		display: block;
+		position: relative;
+		width: 60%;
+		height: 17em;
+		margin: auto;
+			}
+
+	#section4
+	{
+		 width: 60%;
+		 height: 17em;
+		 display: relative;
+		 left: 0%;
+		 margin-top: 2em;
+		 margin-left: auto;
+		 margin-right: auto;
+	}
+
+	#github
+	{
+	width: 5em; 
+	}
+
+
+	form
+	{
+		margin-left: 10em;
+		margin-right: 10em;
+	}
+}
+
+@media screen and (max-width: 500px)
+{
+	header
+	{
+	margin-bottom: 3%;
+	}
+
+	
+
+	#section1
+	{
+	position: static;
+	margin: auto;
+	width: 80%;
+	font-size: 1.8em;
+	}
+
+	nav, ul, li
+	{
+	padding-left: 1%;
+	font-size: 1em;
+	}
+
+	#nom
+	{ 
+		display: none;
+	}
+
+	#lg
+	{
+		display: inline-block;
+	}
+
+	#moi
+	{
+		display: none;
+	}
+
+	#github
+	{
+		width: 3.5em;
+	}
+
+	form
+	{
+		
+		margin-left: 1em;
+		margin-right: 1em;
+	}
+
+	#section3
+	{
+		display: block;
+		position: relative;
+		width: 75%;
+		height: 13em;
+		margin-left: 1.5em;
+		margin-right: 1.5em;
+	}
+
+	#section4
+	{
+		 width: 75%;
+		 height: 13em;
+		 display: relative;
+		 left: 0%;
+		 margin-top: 1em;
+		 margin-left: 1.5em;
+		 margin-right: 1.5em;
+	}
+}
